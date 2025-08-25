@@ -1,0 +1,35 @@
+SpanBerta
+
+Mejor trial:
+{'learning_rate': 1.2424739979838604e-05, 'weight_decay': 0.00018845889559055535, 'batch_size': 32}
+
+=======================================================================================
+XMLRobterta ALL
+Trial 1 finished with value: 0.6117257475852966 and parameters: {'batch_size': 4, 'learning_rate': 4.127654594505987e-05, 'num_train_epochs': 3}
+
+Intento 2
+Trial 25 finished with value: 0.5960201025009155 and parameters: {'batch_size': 8, 'learning_rate': 2.6619938999002465e-05, 'num_train_epochs': 3}. Best is trial 19 with value: 0.5611624717712402.
+Best hyperparameters:  {'batch_size': 4, 'learning_rate': 1.0125399746297657e-05, 'num_train_epochs': 3}
+Best trial:  FrozenTrial(number=19, state=1, values=[0.5611624717712402], datetime_start=datetime.datetime(2025, 4, 4, 22, 58, 37, 211362), datetime_complete=datetime.datetime(2025, 4, 4, 23, 1, 8, 645234), params={'batch_size': 4, 'learning_rate': 1.0125399746297657e-05, 'num_train_epochs': 3}, user_attrs={}, system_attrs={}, intermediate_values={}, distributions={'batch_size': CategoricalDistribution(choices=(4, 8, 16)), 'learning_rate': FloatDistribution(high=5e-05, log=True, low=1e-05, step=None), 'num_train_epochs': IntDistribution(high=5, log=False, low=1, step=1)}, trial_id=19, value=None)
+Best trial value:  0.5611624717712402
+
+========================================================================================
+XMLRobterta ES
+Trial 33 finished with value: 0.6634761095046997 and parameters: {'batch_size': 4, 'learning_rate': 1.3229440853673237e-05, 'num_train_epochs': 5}. Best is trial 18 with value: 0.5606433153152466.
+Best hyperparameters:  {'batch_size': 8, 'learning_rate': 4.196361565727622e-05, 'num_train_epochs': 5}
+Best trial:  FrozenTrial(number=18, state=1, values=[0.5606433153152466], datetime_start=datetime.datetime(2025, 4, 5, 16, 9, 1, 308671), datetime_complete=datetime.datetime(2025, 4, 5, 16, 10, 57, 200814), params={'batch_size': 8, 'learning_rate': 4.196361565727622e-05, 'num_train_epochs': 5}, user_attrs={}, system_attrs={}, intermediate_values={}, distributions={'batch_size': CategoricalDistribution(choices=(4, 8, 16)), 'learning_rate': FloatDistribution(high=5e-05, log=True, low=1e-05, step=None), 'num_train_epochs': IntDistribution(high=5, log=False, low=1, step=1)}, trial_id=18, value=None)
+Best trial value:  0.5606433153152466
+
+=======================================================================================
+XMLRoberta EN
+[I 2025-04-05 23:06:20,223] Trial 25 finished with value: 0.589597761631012 and parameters: {'batch_size': 8, 'learning_rate': 3.206368775827795e-05, 'num_train_epochs': 5}. Best is trial 0 with value: 0.5572969913482666.
+Best hyperparameters:  {'batch_size': 8, 'learning_rate': 3.4760242613192156e-05, 'num_train_epochs': 5}
+Best trial:  FrozenTrial(number=0, state=1, values=[0.5572969913482666], datetime_start=datetime.datetime(2025, 4, 5, 22, 35, 28, 817108), datetime_complete=datetime.datetime(2025, 4, 5, 22, 36, 50, 257416), params={'batch_size': 8, 'learning_rate': 3.4760242613192156e-05, 'num_train_epochs': 5}, user_attrs={}, system_attrs={}, intermediate_values={}, distributions={'batch_size': CategoricalDistribution(choices=(4, 8, 16)), 'learning_rate': FloatDistribution(high=5e-05, log=True, low=1e-05, step=None), 'num_train_epochs': IntDistribution(high=5, log=False, low=1, step=1)}, trial_id=0, value=None)
+Best trial value:  0.5572969913482666
+
+=======================================================================================
+Robera-large EN
+Trial 9 finished with value: 0.6129162907600403 and parameters: {'batch_size': 2, 'learning_rate': 2.7036713313646133e-05, 'num_train_epochs': 2}. Best is trial 0 with value: 0.5187961459159851.
+Best hyperparameters:  {'batch_size': 4, 'learning_rate': 1.3619359291809559e-05, 'num_train_epochs': 4}
+Best trial:  FrozenTrial(number=0, state=1, values=[0.5187961459159851], datetime_start=datetime.datetime(2025, 4, 6, 15, 40, 39, 85902), datetime_complete=datetime.datetime(2025, 4, 6, 15, 43, 20, 18543), params={'batch_size': 4, 'learning_rate': 1.3619359291809559e-05, 'num_train_epochs': 4}, user_attrs={}, system_attrs={}, intermediate_values={}, distributions={'batch_size': CategoricalDistribution(choices=(2, 4)), 'learning_rate': FloatDistribution(high=5e-05, log=True, low=1e-05, step=None), 'num_train_epochs': IntDistribution(high=5, log=False, low=1, step=1)}, trial_id=0, value=None)
+Best trial value:  0.5187961459159851
